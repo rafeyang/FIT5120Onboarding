@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="cleanvictoriaModelStoreContainer" CdmEntityContainer="cleanvictoriaEntities">
+    <EntitySetMapping Name="Info">
+      <EntityTypeMapping TypeName="cleanvictoriaModel.Info">
+        <MappingFragment StoreEntitySet="Info">
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="Percentage" ColumnName="Percentage" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

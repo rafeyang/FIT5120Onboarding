@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="Default Web Site/" />
+  <setParameter name="Database1Entities-Web.config Connection String" value="metadata=res://*/Models.Model1.csdl|res://*/Models.Model1.ssdl|res://*/Models.Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(LocalDB)\MSSQLLocalDB;attachdbfilename=|DataDirectory|\Database1.mdf;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" />
+  <setParameter name="cleanvictoriaEntities-Web.config Connection String" value="metadata=res://*/Models.Model1.csdl|res://*/Models.Model1.ssdl|res://*/Models.Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=database-clean.cz4amjprunnx.ap-southeast-2.rds.amazonaws.com,1433;initial catalog=cleanvictoria;persist security info=True;user id=admin;password=asdf1234;MultipleActiveResultSets=True;App=EntityFramework&quot;" />
+</parameters>

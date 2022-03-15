@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<div class="jumbotron">
+    <h1>Keep VIC Clean</h1>
+    <p class="lead">
+        The Victorian Government's Circular Economy Policy and Plan proposes a sustainable and prosperous circular economy in order to create a cleaner and greener Victoria, reduce waste and pollution, and increase employment opportunities. Separating waste is a step forward in the systemic changes needed to reduce waste and promote the recycling and reuse of our precious resources.
+    </p>
+    <p class="lead">
+        Our website can provide you with ideas for sorting your waste to achieve better, more recycling and less waste.
+    </p>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <h2>Why need do classification</h2>
+        <p>Every year, Australia creates an increasing amount of waste, much of it ends up in our overflowing landfills. However, unrecycled plastic, along with all other sorts of debris, pollutes our beaches, parks, and outdoor activities, which we all wish to avoid.</p>
+        <p class="btn btn-default">@Html.ActionLink("Learn more", "Information", "Home")</p>
+    </div>
+    <div class="col-md-6">
+        <h2>Help to classify garbage</h2>
+        <p>Our website has collected some ways of garbage disposal. You can easily find the types of garbage by the first letter.</p>
+        <p class="btn btn-default">@Html.ActionLink("Help to classification", "Classfication", "Home")</p>
+    </div>
+</div>
