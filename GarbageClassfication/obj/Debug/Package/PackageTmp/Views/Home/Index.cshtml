@@ -1,15 +1,31 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-
-<div class="jumbotron">
-    <h1>Keep VIC Clean</h1>
-    <p class="lead">
-        The Victorian Government's Circular Economy Policy and Plan proposes a sustainable and prosperous circular economy in order to create a cleaner and greener Victoria, reduce waste and pollution, and increase employment opportunities. Separating waste is a step forward in the systemic changes needed to reduce waste and promote the recycling and reuse of our precious resources.
-    </p>
-    <p class="lead">
-        Our website can provide you with ideas for sorting your waste to achieve better, more recycling and less waste.
-    </p>
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Scripts/mvga.js"></script>
+<link href="~/Content/StyleSheet1.css" rel="stylesheet" />
+<div class="jumbotron" style="background:url('/App_Start/background.jpg'); background-size:cover;">
+    <div style="background-color: white; opacity: 0.7;width:fit-content">
+        <h1 style="color:black">Keep VIC Clean</h1>
+    </div>
+    <div class="accordionQuestionAdhoc">
+        <div class="accordionQAHeader" style="background-color: white; opacity: 0.7; width: fit-content">
+            <h2 style="color:mediumblue; font-style:italic">
+                Our Purpose >
+            </h2>
+        </div>
+        <div class="accordionAnswer">
+            <div style="background-color: white; opacity: 0.7; width: fit-content">
+                <p style="color:black">
+                    The Victorian Government's Circular Economy Policy and Plan proposes a sustainable and prosperous circular economy in order to create a cleaner and greener Victoria, reduce waste and pollution, and increase employment opportunities. Separating waste is a step forward in the systemic changes needed to reduce waste and promote the recycling and reuse of our precious resources.
+                </p>
+                <p style="color:black">
+                    Our website can provide you with ideas for sorting your waste to achieve better, more recycling and less waste.
+                </p>
+            </div>
+            
+        </div>
+    </div>
 </div>
 
 <div class="row">
